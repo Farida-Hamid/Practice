@@ -70,7 +70,7 @@ Given a roman numeral, convert it to an integer.
     Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.
 
 
-## Array Quadruplet
+## 4. Array Quadruplet
 
 Given an unsorted array of integers and a number, I wrote a function findArrayQuadruplet that finds four numbers (quadruplets) in the array that sum up to the given number. The function should return an array of these numbers in ascending order. If such a quadruplet doesn’t exist, empty array otherwise.
 
@@ -79,11 +79,15 @@ There may be more than one quadruplet in the array that sum to the given number.
 #### Example:
 
     input:  arr = [2, 7, 4, 0, 9, 5, 1, 3], s = 20
-    
-    output: [0, 4, 7, 9] # The ordered quadruplet of (7, 4, 0, 9)
-                         # whose sum is 20. Notice that there
-                         # are two other quadruplets whose sum is 20:
-                         # (7, 9, 1, 3) and (2, 4, 9, 5), but again you’re
-                         # asked to return the just one quadruplet (in an
-                         # ascending order)
-    
+    output: [0, 4, 7, 9]
+
+## 5. Smallest Substring of All Characters
+
+Given an array of unique characters arr and a string str, Implement a function getShortestUniqueSubstring that finds the smallest substring of str containing all the characters in arr. Return "" (empty string) if such a substring doesn’t exist.
+
+Come up with an asymptotically optimal solution and analyze the time and space complexities.
+
+#### Example:
+
+    input:  arr = ['x','y','z'], str = "xyyzyzyx"
+    output: "zyx"
