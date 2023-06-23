@@ -83,9 +83,7 @@ There may be more than one quadruplet in the array that sum to the given number.
 
 ## 5. Smallest Substring of All Characters
 
-Given an array of unique characters arr and a string str, Implement a function getShortestUniqueSubstring that finds the smallest substring of str containing all the characters in arr. Return "" (empty string) if such a substring doesn’t exist.
-
-Come up with an asymptotically optimal solution and analyze the time and space complexities.
+Given an array of unique characters arr and a string str, I implemented the function getShortestUniqueSubstring that finds the smallest substring of str containing all the characters in arr and returns an empty string if such a substring doesn’t exist.
 
 #### Example:
 
