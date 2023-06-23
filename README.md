@@ -1,6 +1,6 @@
 # Practice
 
-## 1. [Two Sum](https://leetcode.com/problems/two-sum/):
+## 1. [Two Sum](https://leetcode.com/problems/two-sum/)
 Given an array of integer nums and an integer target, I built a function that returns indices of the two numbers such that they add up to the target without using the same element twice. I assumed that each input would have exactly one solution.
 
 #### Example 1:
@@ -15,7 +15,7 @@ Given an array of integer nums and an integer target, I built a function that re
     Input: nums = [3,3], target = 6
     Output: [0,1]
 
-## 2. [Palindrome Number](https://leetcode.com/problems/palindrome-number/):
+## 2. [Palindrome Number](https://leetcode.com/problems/palindrome-number/)
 
 Given an integer x, I built a function that returns true if x is a palindrome, and false otherwise. An integer is a palindrome when it reads the same forward and backward. For example, 121 is a palindrome while 123 is not.
 
@@ -34,7 +34,7 @@ Given an integer x, I built a function that returns true if x is a palindrome, a
     Output: false
     Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
 
-## 3. [Roman to Integer](https://leetcode.com/problems/roman-to-integer/):
+## 3. [Roman to Integer](https://leetcode.com/problems/roman-to-integer/)
 Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.
 
     Symbol       Value
@@ -103,3 +103,25 @@ You have to figure out a way to get both kangaroos at the same location at the s
 #### Example 2:
     Input: 0 2 5 3
     Output: NO
+
+## 7. [Viral Advertising](https://www.hackerrank.com/challenges/strange-advertising/copy-from/251554491)
+HackerLand Enterprise is adopting a new viral advertising strategy. When they launch a new product, they advertise it to exactly 5 people on social media.
+On the first day, half of those 5 people (i.e., floor(5/2) = 2) like the advertisement and each shares it with 3 of their friends. At the beginning of the second day, floor(5/2) * 3 = 6 people receive the advertisement.
+Each day, floor(recipients / 2) of the recipients like the advertisement and will share it with 3 friends on the following day. Assuming nobody receives the advertisement twice, determine how many people have liked the ad by the end of a given day, beginning with launch day as day 1.
+#### Example 
+    n = 5
+    Day Shared Liked Cumulative
+    1      5     2       2
+    2      6     3       5
+    3      9     4       9
+    4     12     6      15
+    5     18     9      24
+The progression is shown above. The cumulative number of likes on the fifth day is 24.
+#### Function Description
+Complete the viralAdvertising function in the editor below.
+viralAdvertising has the following parameter(s):
+int n: the day number to report
+#### Returns
+int: the cumulative likes at that day
+#### Input Format
+A single integer, n, the day number.
