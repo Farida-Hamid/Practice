@@ -126,7 +126,7 @@ int: the cumulative likes at that day
 #### Input Format
 A single integer, n, the day number.
 
-## 8. Longest Common Prefix
+## 8. [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)
 Write a function to find the longest common prefix string amongst an array of strings.
 
 If there is no common prefix, return an empty string "".
